@@ -1,0 +1,34 @@
+<ion-view title="Main" id="page1">
+  <ion-content padding="true" class="has-header">
+    <h1 id="main-heading1" style="color:#130B0B;font-weight:600;text-align:center;">Contacts</h1>
+    <div id="main-button-bar1" class="button-bar">
+      <a ui-sref="add()" id="main-button4" style="font-size:12px;" class="button button-calm button-block icon ion-android-person-add">ADD</a>
+      <a ui-sref="edit()" id="main-button5" style="font-size:12px;" class="button button-positive button-block icon ion-edit">UPDATE</a>
+      <a ui-sref="delete()" id="main-button6" style="font-size:12px;" class="button button-assertive button-block icon ion-android-delete">DELETE</a>
+    </div>
+    <form id="main-form1" class="list">
+      <label class="item item-input" id="main-search1">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" placeholder="Search">
+      </label>
+      <div id="main-markdown1" class="show-list-numbers-and-dots">
+        <p style="color:#000000;font-size:15px;">My Number: +639357891194</p>
+      </div>
+      <ion-item class="item-avatar" id="main-list-item1" ui-sref="contact()">
+        <img src="img/JZjinnfUSFmqz2SbHwIh_marshall.jpg">
+        <h2>Marshall Mathers</h2>
+        <p>Phone (0925) 235 4565</p>
+      </ion-item>
+      <ion-item class="item-avatar" id="main-list-item2" ui-sref="contact2()">
+        <img src="img/c2q49nyMQdqVmGWYxkCE_Rakim.jpg">
+        <h2>Rakim Mayers</h2>
+        <p>Phone (0926) 327 0898</p>
+      </ion-item>
+      <ion-item class="item-avatar" id="main-list-item3" ui-sref="contact3()">
+        <img src="img/3ebPbBjDQeKzLYMhhrYo_Scott.jpg">
+        <h2>Travis Scott</h2>
+        <p>Phone (093) 793 9115</p>
+      </ion-item>
+    </form>
+  </ion-content>
+</ion-view>
